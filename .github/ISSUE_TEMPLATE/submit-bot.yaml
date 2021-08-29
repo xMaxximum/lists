@@ -1,0 +1,100 @@
+name: Submit Bot
+description: Submit a Revolt bot to be listed
+title: "[Bot]: My-Name-Here"
+labels: [Bot-Submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the fields carefully
+  - type: input
+    attributes:
+      label: Bot Name
+      description: What is the name of your bot?
+      placeholder: ex. Dynusus#3861
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Short Explanation
+      description: Describe your Bot in a few words
+      placeholder: You can use Dynusus to moderate and for Music
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Long Explanation
+      description: Want to have a more detailed explanation of the bot's features?
+      placeholder: Dynusus can also be used for Webhooks and...
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Invite Link
+      description: The invite link used to invite your bot.
+      placeholder: https://www.example.com/invite
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Support Link
+      description: The invite link used to get into the bot's Support Server.
+      placeholder: https://www.example.com/support
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Bot Icon URL
+      description: The Link to your bot's logo. Must be hosted under revolt.chat.
+      placeholder: https://autumn.revolt.chat/icons/G_u1obFQ6aQdy31V28vFRu_HtMv7Xe2ZR1DjqxEJnW?max_side=256
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Add Tags
+      description: What tags do you want your bot to be found with? (Comma and space seperated!)
+      placeholder: Anime, Moderation, Utility
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Owner Name
+      description: The bot Owner's name
+      placeholder: Nerrix#0001
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Owner ID
+      description: The bot Owner's ID
+      placeholder: "35465768890876543"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Bot ID
+      description: The bot's ID
+      placeholder: "32457678654356789765"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Help Command
+      description: The bot's help command
+      placeholder: ;help
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Bot Prefix
+      description: The bot's prefix
+      placeholder: ;
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Library
+      description: The Library the bot was written in.
+      placeholder: revolt.py
+    validations:
+      required: true

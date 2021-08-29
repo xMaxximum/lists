@@ -1,0 +1,66 @@
+name: Submit Server
+description: Submit a Revolt Server to be listed
+title: "[Server]: My-Name-Here"
+labels: [Server-Submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the fields carefully.
+  - type: input
+    attributes:
+      label: Server Name
+      description: What is the name of your community?
+      placeholder: ex. Developers Hangout
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Server Icon URL
+      description: The Link to your server logo. Must be hosted under revolt.chat.
+      placeholder: "https://autumn.revolt.chat/icons/G_u1obFQ6aQdy31V28vFRu_HtMv7Xe2ZR1DjqxEJnW?max_side=256"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Short Server Info
+      description: Describe your server in a few words.
+      placeholder: ex. Fun server for people who like Gaming!
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Long Server Info
+      description: Want to have a more detailed description of your server?
+      placeholder: ex. Gaming World is a fun and new community with active staff...
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Add Tags
+      description: What tags do you want your server to be found with? (Comma and space seperated!)
+      placeholder: Music, Anime, Gaming, kpop
+    validations:
+      required: true
+  - type: input
+    attributes: 
+      label: Server Owner
+      description: Who owns the server?
+      placeholder: Amogus#6969
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Server Owner ID
+      description: The ID of the Server Owner.
+      placeholder: "12345678987654325432"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Invite URL
+      description: The Invite Link to your server
+      placeholder: "https://nightly.revolt.chat/invite/t0yny8eN"
+    validations:
+      required: true
+
