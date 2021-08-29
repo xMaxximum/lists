@@ -1,6 +1,6 @@
 name: Submit Server
 description: Submit a Revolt Server to be listed
-title: "[Server]: My-Name-Here"
+title: "Server Submission"
 labels: [Server-Submission]
 body:
   - type: markdown
