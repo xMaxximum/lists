@@ -1,6 +1,6 @@
 name: Submit Bot
 description: Submit a Revolt bot to be listed
-title: "[Bot]: My-Name-Here"
+title: "Bot Submission"
 labels: [Bot-Submission]
 body:
   - type: markdown
