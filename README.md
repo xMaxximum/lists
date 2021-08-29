@@ -11,4 +11,9 @@ The original Revolt Bot & Server list.
 
 #### behind the scenes
 - Every 5 minutes servers/bots which are newly approved in the issues are written into the respective json files. 
-- Listing Policy, Privacy Policy and a way to report server/user count as well as sorting by tags and editing of listings are TBD.
+#### TBD:
+- Listing Policy, Privacy Policy
+- Report server/user count
+- Sorting by tags
+- Editing of listings
+- Vanity Links
