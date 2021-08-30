@@ -17,7 +17,6 @@ The original Revolt Bot & Server list.
 - Sorting by tags
 - Editing of listings
 - Vanity Links
-- Fetch 
 - ~~Randomly shuffle the listings~~ done
 
 ## Temporary Listing Policy
