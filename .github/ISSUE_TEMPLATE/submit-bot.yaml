@@ -11,7 +11,7 @@ body:
     attributes:
       label: Bot Name
       description: What is the name of your bot?
-      placeholder: ex. Dynusus#3861
+      placeholder: ex. Dynusus
     validations:
       required: true
   - type: input
@@ -60,21 +60,21 @@ body:
     attributes:
       label: Owner Name
       description: The bot Owner's name
-      placeholder: Nerrix#0001
+      placeholder: Nerrix
     validations:
       required: true
   - type: input
     attributes:
       label: Owner ID
       description: The bot Owner's ID
-      placeholder: "35465768890876543"
+      placeholder: "def35465768890876543"
     validations:
       required: true
   - type: input
     attributes:
       label: Bot ID
       description: The bot's ID
-      placeholder: "32457678654356789765"
+      placeholder: "abc32457678654356789765"
     validations:
       required: true
   - type: input
