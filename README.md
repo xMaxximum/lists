@@ -16,6 +16,7 @@ The original Revolt Bot & Server list.
 - Report server/user count (fetch from the invite!)
 - Sorting by tags
 - Editing of listings
+- votes
 - Vanity Links
 - ~~Randomly shuffle the listings~~ done
 
