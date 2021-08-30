@@ -46,21 +46,21 @@ body:
     attributes: 
       label: Server Owner
       description: Who owns the server?
-      placeholder: Amogus#6969
+      placeholder: Amogus
     validations:
       required: true
   - type: input
     attributes:
       label: Server Owner ID
       description: The ID of the Server Owner.
-      placeholder: "12345678987654325432"
+      placeholder: "abc12345678987654325432"
     validations:
       required: true
   - type: input
     attributes:
       label: Invite URL
       description: The Invite Link to your server
-      placeholder: "https://nightly.revolt.chat/invite/t0yny8eN"
+      placeholder: "https://app.revolt.chat/invite/t0yny8eN"
     validations:
       required: true
 
