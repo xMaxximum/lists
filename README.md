@@ -32,3 +32,6 @@ The difference is: We currently approve every submission and thus we cannot make
 
 - This listing policy is not final and subject to change. 
 - Common sense shall be applied.
+
+## Credits
+- Awesome error Image by [amy-](https://twitter.com/amy_studios)
