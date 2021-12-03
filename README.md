@@ -22,6 +22,7 @@ The original Revolt Bot & Server list.
 
 ## Temporary Listing Policy
 - Please fill out all fields (including icon).
+- The icon needs to be a revolt attachment URL.
 - All listings must be SFW (including the icon) for legal reasons.
 <details>
   <summary>More details on that</summary>

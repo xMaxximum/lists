@@ -17,7 +17,7 @@ body:
   - type: input
     attributes:
       label: Server Icon URL
-      description: The Link to your server logo. Must be hosted under revolt.chat.
+      description: The Link to your server logo. **Must be hosted under revolt.chat, so you have to submit the link of an image or gif that starts with "https://autum.revolt.chat/". That simply means that it is the URL of an attachment in a Revolt channel.**
       placeholder: "https://autumn.revolt.chat/icons/G_u1obFQ6aQdy31V28vFRu_HtMv7Xe2ZR1DjqxEJnW?max_side=256"
     validations:
       required: true
