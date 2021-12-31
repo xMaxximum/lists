@@ -3,10 +3,11 @@ description: Submit a Revolt Server to be listed
 title: "Server Submission"
 labels: [Server-Submission]
 body:
+
   - type: markdown
     attributes:
       value: |
-        Please fill out the fields carefully.
+        # 👉 [Go here](https://revolt.social/add-server) first!
   - type: input
     id: server-name
     attributes:
