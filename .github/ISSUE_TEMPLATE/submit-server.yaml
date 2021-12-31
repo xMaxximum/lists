@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # 👉 [Go here](https://revolt.social/add-server) first!
+        # ⚠️⚠️ Before filling this out, __[go here](https://revolt.social/add-server)__ first! ⚠️⚠️
   - type: input
     id: server-name
     attributes:
