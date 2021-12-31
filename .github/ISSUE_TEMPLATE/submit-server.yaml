@@ -8,17 +8,17 @@ body:
       value: |
         Please fill out the fields carefully.
   - type: input
+    id: server-name
     attributes:
       label: Server Name
-      id: server-name
       description: What is the name of your community?
       placeholder: ex. Developers Hangout
     validations:
       required: true
   - type: input
+    id: server-icon
     attributes:
       label: Server Icon URL
-      id: server-icon
       description: The Link to your server logo. **Must be hosted under revolt.chat, so you have to submit the link of an image or gif that starts with "https://autum.revolt.chat/". That simply means that it is the URL of an attachment in a Revolt channel.**
       placeholder: "https://autumn.revolt.chat/icons/G_u1obFQ6aQdy31V28vFRu_HtMv7Xe2ZR1DjqxEJnW?max_side=256"
     validations:
@@ -45,25 +45,25 @@ body:
     validations:
       required: true
   - type: input
+    id: server-owner-name
     attributes: 
       label: Server Owner
-      id: server-owner-name
       description: Who owns the server?
       placeholder: Amogus
     validations:
       required: true
   - type: input
+    id: server-owner-id
     attributes:
       label: Server Owner ID
-      id: server-owner-id
       description: The ID of the Server Owner.
       placeholder: "abc12345678987654325432"
     validations:
       required: true
   - type: input
+    id: invite-url
     attributes:
       label: Invite URL
-      id: invite-url
       description: The Invite Link to your server
       placeholder: "https://app.revolt.chat/invite/t0yny8eN"
     validations:
